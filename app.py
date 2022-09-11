@@ -4,6 +4,7 @@ import os
 import aws_cdk as cdk
 
 from lambdavpc.lambdavpc_stack import LambdavpcStack
+from lambdavpc.networkStack import NetworkStack
 
 
 app = cdk.App()
